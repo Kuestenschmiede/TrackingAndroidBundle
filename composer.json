@@ -1,0 +1,30 @@
+{
+  "name": "con4gis/con4gis_tracking_android",
+  "description": "Extends the con4gis_tracking extension by tracking for android devices.",
+  "keywords": ["con4gis", "tracking", "contao", "c4g", "android"],
+  "type": "contao-module",
+  "homepage": "https://con4gis.org",
+  "license": "LGPL-3.0+",
+  "authors":[
+    {
+      "name":"Küstenschmiede GmbH Software & Design",
+      "homepage":"https://kuestenschmiede.de"
+    }
+  ],
+  "require": {
+    "con4gis/con4gis_tracking": "~2.1"
+  },
+  "support": {
+    "issues": "https://github.com/Kuestenschmiede/con4gis_tracking_android/issues"
+  },
+  "autoload": {
+    "classmap": [""]
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/con4gis_tracking_android"
+      }
+    }
+  }
+}
