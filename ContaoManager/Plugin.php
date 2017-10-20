@@ -1,6 +1,6 @@
 <?php
 
-namespace con4gis\GroupsBundle\ContaoManager;
+namespace con4gis\TrackingAndroidBundle\ContaoManager;
 
 use con4gis\ApiBundle\Con4gisApiBundle;
 use con4gis\CoreBundle\con4gisCoreBundle;
@@ -14,18 +14,9 @@ use Contao\ManagerPlugin\Routing\RoutingPluginInterface;
 use Symfony\Component\Config\Loader\LoaderResolverInterface;
 use Symfony\Component\HttpKernel\KernelInterface;
 
-class Plugin implements RoutingPluginInterface, BundlePluginInterface
+class Plugin implements BundlePluginInterface
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function getRouteCollection(LoaderResolverInterface $resolver, KernelInterface $kernel)
-    {
-        return $resolver
-            ->resolve(__DIR__.'/../Resources/config/routing.yml')
-            ->load(__DIR__.'/../Resources/config/routing.yml')
-            ;
-    }
+
     /**
      * Gets a list of autoload configurations for this bundle.
      *
