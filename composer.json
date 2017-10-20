@@ -1,5 +1,5 @@
 {
-  "name": "con4gis/trackingAndroid",
+  "name": "con4gis/tracking-android",
   "description": "Android extension for con4gis-Tracking",
   "keywords": ["con4gis", "tracking", "contao", "c4g", "maps", "gps"],
   "type": "contao-bundle",
