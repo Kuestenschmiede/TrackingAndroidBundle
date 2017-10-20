@@ -1,8 +1,8 @@
 {
-  "name": "con4gis/con4gis_tracking_android",
-  "description": "Extends the con4gis_tracking extension by tracking for android devices.",
-  "keywords": ["con4gis", "tracking", "contao", "c4g", "android"],
-  "type": "contao-module",
+  "name": "con4gis/trackingAndroid",
+  "description": "Android extension for con4gis-Tracking",
+  "keywords": ["con4gis", "tracking", "contao", "c4g", "maps", "gps"],
+  "type": "contao-bundle",
   "homepage": "https://con4gis.org",
   "license": "LGPL-3.0+",
   "authors":[
@@ -12,19 +12,33 @@
     }
   ],
   "require": {
-    "con4gis/con4gis_tracking": "~2.1"
+    "con4gis/tracking": "^3.0"
+  },
+  "conflict": {
+    "contao/core": "*",
+    "contao/manager-plugin": "<2.0 || >=3.0"
   },
   "support": {
-    "issues": "https://github.com/Kuestenschmiede/con4gis_tracking_android/issues"
+    "issues": "https://github.com/Kuestenschmiede/TrackingAndroidBundle/issues"
   },
   "autoload": {
-    "classmap": [""]
+    "psr-4": {
+      "con4gis\\TrackingAndroidBundle\\": ""
+    },
+    "classmap": [
+      "Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "Resources/contao/config/",
+      "Resources/contao/dca/",
+      "Resources/contao/languages/",
+      "Resources/contao/templates/"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
   },
   "extra": {
-    "contao": {
-      "sources": {
-        "": "system/modules/con4gis_tracking_android"
-      }
-    }
+    "contao-manager-plugin": "con4gis\\TrackingAndroidBundle\\ContaoManager\\Plugin"
   }
 }
