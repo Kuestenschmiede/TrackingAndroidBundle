@@ -14,7 +14,5 @@
 /**
  * Global settings
  */
-$GLOBALS['con4gis_tracking_android_extension']['installed'] = true;
-$GLOBALS['con4gis_tracking_android_extension']['version']   = '1.2.1-snapshot';
-
+$GLOBALS['con4gis']['trackingAndroid']['installed'] = true;
 $GLOBALS['c4g_tracking_devicetypes']['android'] = "android";
