@@ -1,9 +1,9 @@
-con4gis-TrackingAndroid
-=======================
+con4gis-Tracking-Android
+========================
 The Tracking Android brick of the Contao GIS-kit **con4gis**. A telematic interface. Usefull with con4gis-Maps and con4gis-Tracking.
 
 **Git Repository:** TrackingAndroidBundle  
-**Composer Vendor/Package:** [con4gis/trackingAndroid](https://packagist.org/packages/con4gis/trackingAndroid)  
+**Composer Vendor/Package:** [con4gis/tracking-android](https://packagist.org/packages/con4gis/tracking-android)  
 **Website:** [con4gis.org](https://con4gis.org)
 
 **Requires:**
