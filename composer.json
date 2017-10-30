@@ -5,21 +5,28 @@
   "type": "contao-bundle",
   "homepage": "https://con4gis.org",
   "license": "LGPL-3.0+",
-  "authors":[
+  "authors": [
     {
-      "name":"Küstenschmiede GmbH Software & Design",
-      "homepage":"https://kuestenschmiede.de"
+      "name": "Kuestenschmiede GmbH Software & Design",
+      "homepage": "https://kuestenschmiede.de",
+      "role": "Operator"
+    },
+    {
+      "name": "con4gis community",
+      "homepage": "https://con4gis.org",
+      "role": "Developer"
     }
   ],
+  "support": {
+    "email": "support@con4gis.org",
+    "issues": "https://github.com/Kuestenschmiede/TrackingAndroidBundle/issues"
+  },
   "require": {
     "con4gis/tracking": "^3.0"
   },
   "conflict": {
     "contao/core": "*",
     "contao/manager-plugin": "<2.0 || >=3.0"
-  },
-  "support": {
-    "issues": "https://github.com/Kuestenschmiede/TrackingAndroidBundle/issues"
   },
   "autoload": {
     "psr-4": {
