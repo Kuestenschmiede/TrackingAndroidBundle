@@ -48,5 +48,6 @@
   },
   "extra": {
     "contao-manager-plugin": "con4gis\\TrackingAndroidBundle\\ContaoManager\\Plugin"
-  }
+  },
+  "abandoned": true
 }
